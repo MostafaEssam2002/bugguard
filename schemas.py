@@ -10,14 +10,12 @@ class TaskCreate(BaseModel):
     priority: Optional[TaskPriority] = TaskPriority.medium
     due_date: Optional[datetime] = None
     assigned_to: Optional[str] = Field(default=None, max_length=100)
-
     @field_validator("title")
     @classmethod
     def title_not_blank(cls, v):
         if not v or not v.strip():
             raise ValueError("Title must not be empty")
         return v.strip()
-
     @field_validator("due_date")
     @classmethod
     def due_date_in_future(cls, v):
