@@ -138,7 +138,8 @@ Includes:
 
 ```
 bugguard/
-├── main.py
+├── app
+├──├── main.py
 ├── models.py
 ├── schemas.py
 ├── database.py
@@ -170,20 +171,10 @@ uvicorn main:app --host 0.0.0.0 --port 8000
 
 ## License
 
-This project is part of the **FastAPI Intern Assessment 2025**.
+This project is part of the **FastAPI Intern Assessment**.
 
 ---
 
 ## Author
 
-**The King Mostafa** 👑
-```
-
-**الخطوات التالية:**
-
-1.  قم بنسخ المحتوى أعلاه بالكامل.
-2.  افتح ملف `README.md` الخاص بك (على جهازك أو مباشرة على GitHub إذا كنت تستخدم واجهة الويب).
-3.  الصق المحتوى المنسوخ ليحل محل المحتوى الحالي.
-4.  احفظ التغييرات.
-
-الآن، عندما يتم عرض ملف `README.md`، سيظهر قسم "Project Structure" بالشكل الهرمي الذي طلبته.
+**The Mostafa Essam** 
