@@ -131,13 +131,11 @@ Includes:
 
 ```bash
 bugguard/
-├── app/
-│   ├── main.py
-│   ├── models.py
-│   ├── schemas.py
-│   └── database.py
-├── tests/
-│   └── test_main.py
+├── main.py
+├── models.py
+├── schemas.py
+├── database.py
+├── test_main.py
 ├── requirements.txt
 ├── Dockerfile
 ├── .env
