@@ -2,16 +2,21 @@ from sqlmodel import SQLModel, Field
 from enum import Enum
 from typing import Optional
 from datetime import datetime, timezone
+
+# Task Status
 class TaskStatus(str, Enum):
     pending = "pending"
     in_progress = "in_progress"
     completed = "completed"
     cancelled = "cancelled"
+
+# Task priority
 class TaskPriority(str, Enum):
     low = "low"
     medium = "medium"
     high = "high"
     urgent = "urgent"
+
 class Task(SQLModel, table=True):
     id: Optional[int] = Field(default=None, primary_key=True)
     title: str = Field(max_length=200)

@@ -144,6 +144,13 @@ bugguard/
 ├── .dockerignore
 └── README.md
 
+## Run in Production (Optional)
+
+```bash
+uvicorn main:app --host 0.0.0.0 --port 8000
+```
+
+---
 
 ## API Docs
 
@@ -152,13 +159,6 @@ bugguard/
 
 ---
 
-## Run in Production (Optional)
-
-```bash
-uvicorn main:app --host 0.0.0.0 --port 8000
-```
-
----
 
 ## License
 
