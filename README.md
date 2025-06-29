@@ -48,7 +48,9 @@ docker build -t bugguard-app .
 ```bash
 docker run -d -p 8000:8000 bugguard-app
 ```
-
+```
+goto http://localhost:8000/docs# 
+```
 ---
 
 ## Run Tests
@@ -131,13 +133,11 @@ Includes:
 
 ```bash
 bugguard/
-├── app/
-│   ├── main.py
-│   ├── models.py
-│   ├── schemas.py
-│   └── database.py
-├── tests/
-│   └── test_main.py
+├── main.py
+├── models.py
+├── schemas.py
+├── database.py
+├── test_main.py
 ├── requirements.txt
 ├── Dockerfile
 ├── .env
@@ -168,4 +168,4 @@ This project is part of the **FastAPI Intern Assessment**.
 
 ## Author
 
-**The Mostafa Essam** 
+**Mostafa Essam** 
