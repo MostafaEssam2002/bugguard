@@ -134,25 +134,23 @@ Includes:
 
 ---
 
-## Project Structure
+## 📁 Project Structure
 
-```
+```bash
 bugguard/
-├── app
-├──├── main.py
-├── models.py
-├── schemas.py
-├── database.py
-├── test_main.py
+├── app/
+│   ├── main.py
+│   ├── models.py
+│   ├── schemas.py
+│   └── database.py
+├── tests/
+│   └── test_main.py
 ├── requirements.txt
 ├── Dockerfile
 ├── .env
 ├── .dockerignore
-├── database.db
 └── README.md
-```
 
----
 
 ## API Docs
 
