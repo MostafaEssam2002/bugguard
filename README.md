@@ -1,4 +1,4 @@
-# 🐞 BugGuard - Task Management API
+# BugGuard - Task Management API
 
 ## Overview
 
