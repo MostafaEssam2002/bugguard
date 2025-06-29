@@ -20,7 +20,7 @@ A RESTful API built with **FastAPI**, **SQLModel**, and **Pydantic**, providing 
 ## Installation
 
 ```bash
-git clone https://github.com/your-username/bugguard.git
+git clone https://github.com/MostafaEssam2002/bugguard.git
 cd bugguard
 pip install -r requirements.txt
 ```
