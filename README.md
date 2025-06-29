@@ -56,7 +56,7 @@ goto http://localhost:8000/docs#
 ## Run Tests
 
 ```bash
-python -m pytest
+python -m pytest test_main.py
 ```
 
 ---
