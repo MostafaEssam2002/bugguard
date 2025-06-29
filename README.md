@@ -168,4 +168,4 @@ This project is part of the **FastAPI Intern Assessment**.
 
 ## Author
 
-**The Mostafa Essam** 
+**Mostafa Essam** 
