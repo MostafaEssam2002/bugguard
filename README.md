@@ -48,7 +48,9 @@ docker build -t bugguard-app .
 ```bash
 docker run -d -p 8000:8000 bugguard-app
 ```
-
+```
+goto http://localhost:8000/docs# 
+```
 ---
 
 ## Run Tests
