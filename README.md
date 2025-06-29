@@ -1,4 +1,3 @@
-```markdown
 # 🐞 BugGuard - Task Management API
 
 ## Overview
