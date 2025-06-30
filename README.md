@@ -133,8 +133,8 @@ Includes:
 
 ```bash
 bugguard/
-├── routes
-├── ├── tasks.py
+├── routes/
+│   └── tasks.py
 ├── main.py
 ├── models.py
 ├── schemas.py
