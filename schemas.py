@@ -36,7 +36,6 @@ class TaskCreate(BaseModel):
     @classmethod
     def due_date_in_future(cls, v):
         if v:
-            # تأكد أن التاريخ يحتوي على timezone
             if v.tzinfo is None or v.tzinfo.utcoffset(v) is None:
                 v = v.replace(tzinfo=timezone.utc)
             now = datetime.now(timezone.utc)
@@ -61,4 +60,3 @@ class TaskResponse(TaskCreate):
     model_config = {
         "from_attributes": True
     }
-
