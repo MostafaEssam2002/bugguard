@@ -1,10 +1,10 @@
 from fastapi import FastAPI
 from database import create_db
 from routes import tasks
-
+from seed import seed_data 
 app = FastAPI()
 create_db()
-
+seed_data() 
 app.include_router(tasks.router)
 """
 1. Root Endpoint ----> GET / - Return API information and available endpoints
